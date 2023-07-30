@@ -21,6 +21,20 @@ public class CoreApplication {
 			return "Hello Souvik";
 		}
 	}
+
+	/**
+	 * To test the data appearing on the webpage
+	 */
+	@RestController
+	public static class Souvik1
+	{
+		@RequestMapping("/test1")
+		public String hello()
+		{
+			return "Hello SouvikDas";
+		}
+	}
+
 	public static void main(String[] args)
 	{
 		SpringApplication.run(CoreApplication.class, args);
