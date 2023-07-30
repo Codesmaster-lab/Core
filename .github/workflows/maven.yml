@@ -10,9 +10,9 @@ name: Core
 
 on:
   push:
-    branches: [ "Compilation-Features" ]
+    branches: [ "Compilation-Features" ]   #Change the branch name according to need
   pull_request:
-    branches: [ "Compilation-Features" ]
+    branches: [ "Compilation-Features" ]   #Change the branch name according to need
 
 jobs:
   build:
