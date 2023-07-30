@@ -47,7 +47,15 @@ public class CoreApplication {
 			return "Hello SouvikDas !How r u?";
 		}
 	}
-
+	@RestController
+	public static class Souvik3
+	{
+		@RequestMapping("/test2")
+		public String hello()
+		{
+			return "Hello SouvikDas !How r u?";
+		}
+	}
 	public static void main(String[] args)
 	{
 		SpringApplication.run(CoreApplication.class, args);
