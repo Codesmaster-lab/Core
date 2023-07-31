@@ -50,7 +50,7 @@ public class CoreApplication {
 	@RestController
 	public static class Souvik3
 	{
-		@RequestMapping("/test2")
+		@RequestMapping("/test3")
 		public String hello()
 		{
 			return "Hello SouvikDas !How r u?";
